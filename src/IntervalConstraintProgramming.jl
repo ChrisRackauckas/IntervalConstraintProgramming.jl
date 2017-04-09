@@ -3,11 +3,11 @@ __precompile__()
 module IntervalConstraintProgramming
 
 using IntervalArithmetic, IntervalRootFinding
-
 using MacroTools
 
 import Base:
     show, ∩, ∪, !, ⊆, setdiff
+
 
 import IntervalArithmetic: sqr, setindex
 
